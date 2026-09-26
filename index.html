@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Unity 3D Game Developer portfolio - gameplay systems, mobile optimization, multiplayer and open-world development." />
+  <meta name="theme-color" content="#070b14" />
+  <title>Hamza | Unity 3D Game Developer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Homepage">
+        <span class="brand-mark">H</span>
+        <span class="brand-text">HAMZA<span>.DEV</span></span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="dot"></span> UNITY 3D GAME DEVELOPER</div>
+          <h1>
+            I build <span class="gradient-text">mobile games</span><br />
+            that feel alive.
+          </h1>
+          <p class="hero-text">
+            Gameplay systems, open-world mechanics, vehicle systems, multiplayer,
+            Firebase integrations, mobile optimization and polished player experiences in Unity.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects <span>↗</span></a>
+            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+          </div>
+
+          <div class="hero-meta">
+            <div><strong>2+</strong><span>Years Experience</span></div>
+            <div><strong>Android</strong><span>Primary Platform</span></div>
+            <div><strong>Unity</strong><span>Gameplay & Systems</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="code-card glass">
+            <div class="code-top">
+              <div class="traffic-lights"><i></i><i></i><i></i></div>
+              <span>PlayerController.cs</span>
+            </div>
+            <pre><code><span class="kw">public class</span> <span class="type">PlayerController</span> : <span class="type">MonoBehaviour</span>
+{
+    <span class="kw">void</span> <span class="fn">Update</span>()
+    {
+        <span class="comment">// Build. Optimize. Ship.</span>
+        <span class="fn">ReadInput</span>();
+        <span class="fn">MovePlayer</span>();
+        <span class="fn">CreateFun</span>();
+    }
+}</code></pre>
+          </div>
+
+          <div class="mini-card glass stat-card">
+            <span class="mini-label">CURRENT FOCUS</span>
+            <strong>Gameplay Systems</strong>
+            <div class="progress"><span></span></div>
+          </div>
+
+          <div class="mini-card glass engine-card">
+            <span class="unity-cube">◈</span>
+            <div>
+              <span class="mini-label">ENGINE</span>
+              <strong>Unity</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container split">
+        <div class="section-intro reveal">
+          <span class="section-index">01 / ABOUT</span>
+          <h2>Developer first.<br><span class="muted">Problem solver always.</span></h2>
+        </div>
+
+        <div class="about-copy reveal delay-1">
+          <p class="lead">
+            I'm a Unity 3D Game Developer focused on building fun, responsive and optimized
+            experiences for Android.
+          </p>
+          <p>
+            My work includes gameplay programming, open-world traffic systems, vehicle mechanics,
+            multiplayer with Photon PUN 2, Firebase Remote Config, Realtime Database, AdMob integration,
+            AI/navigation systems and mobile performance optimization.
+          </p>
+          <p>
+            I enjoy taking gameplay ideas from prototype to production and solving the technical
+            problems that appear between “it works” and “it feels good”.
+          </p>
+
+          <div class="about-tags">
+            <span>C#</span><span>Unity 3D</span><span>Android</span><span>Gameplay</span>
+            <span>Photon PUN 2</span><span>Firebase</span><span>GitHub</span><span>Optimization</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">02 / SKILLS</span>
+            <h2>Tools I use to turn ideas into games.</h2>
+          </div>
+          <p>Focused on practical game development, scalable gameplay logic and smooth Android performance.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="icon-box">C#</div>
+            <h3>Gameplay Programming</h3>
+            <p>Player controllers, mission systems, UI flows, level logic, coroutines, data structures and reusable gameplay architecture.</p>
+            <div class="skill-chips"><span>C#</span><span>OOP</span><span>ScriptableObjects</span></div>
+          </article>
+
+          <article class="skill-card reveal delay-1">
+            <div class="icon-box">3D</div>
+            <h3>Vehicle & Open World</h3>
+            <p>RCC integration, traffic AI, waypoint systems, chunk activation, spawning, physics tuning and open-world gameplay systems.</p>
+            <div class="skill-chips"><span>RCC</span><span>Physics</span><span>Traffic AI</span></div>
+          </article>
+
+          <article class="skill-card reveal delay-2">
+            <div class="icon-box">MP</div>
+            <h3>Multiplayer</h3>
+            <p>Converted gameplay systems to multiplayer using Photon PUN 2 with player synchronization and network-aware interactions.</p>
+            <div class="skill-chips"><span>Photon PUN 2</span><span>Sync</span><span>RPC</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="icon-box">FB</div>
+            <h3>Firebase & Monetization</h3>
+            <p>Remote Config, Realtime Database, event integration and AdMob workflows for live mobile games.</p>
+            <div class="skill-chips"><span>Firebase</span><span>AdMob</span><span>Remote Config</span></div>
+          </article>
+
+          <article class="skill-card reveal delay-1">
+            <div class="icon-box">AI</div>
+            <h3>AI & Navigation</h3>
+            <p>NavMesh-based movement, enemy behavior, target systems, dynamic activation and lightweight AI logic.</p>
+            <div class="skill-chips"><span>NavMesh</span><span>State Logic</span><span>Waypoints</span></div>
+          </article>
+
+          <article class="skill-card reveal delay-2">
+            <div class="icon-box">FPS</div>
+            <h3>Mobile Optimization</h3>
+            <p>Reducing physics overhead, pooling, batching awareness, profiler analysis, scene loading and low-device optimization.</p>
+            <div class="skill-chips"><span>Profiler</span><span>Pooling</span><span>Android</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">03 / EXPERIENCE</span>
+            <h2>Hands-on production experience.</h2>
+          </div>
+          <p>Professional Unity development across gameplay, 2D/3D systems and multiplayer conversion.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2026</div>
+            <div class="timeline-content">
+              <span class="timeline-kicker">UNITY GAME DEVELOPER</span>
+              <h3>Gameplay, 2D & Multiplayer Projects</h3>
+              <p>
+                Worked on 2D gameplay systems, project conversion to multiplayer, controls,
+                UI integration and production-focused Unity tasks in an Agile workflow.
+              </p>
+              <div class="timeline-tech"><span>Unity</span><span>C#</span><span>Photon PUN 2</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal delay-1">
+            <div class="timeline-date">2024 — 2026</div>
+            <div class="timeline-content">
+              <span class="timeline-kicker">UNITY 3D DEVELOPER</span>
+              <h3>3D Simulation & Gameplay Systems</h3>
+              <p>
+                Built gameplay features for 3D simulation projects including traffic systems,
+                ragdolls, vehicle behavior, AI movement and open-world supporting systems.
+              </p>
+              <div class="timeline-tech"><span>Traffic AI</span><span>RCC</span><span>Physics</span><span>Android</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">04 / SELECTED WORK</span>
+            <h2>Systems & projects I'm proud of.</h2>
+          </div>
+          <p>Replace demo links below with your GitHub repos, Play Store links or gameplay videos.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-preview preview-traffic">
+              <div class="road road-a"></div>
+              <div class="road road-b"></div>
+              <div class="car car-1"></div>
+              <div class="car car-2"></div>
+              <div class="car car-3"></div>
+              <span class="preview-label">CUSTOM SYSTEM</span>
+            </div>
+            <div class="project-body">
+              <div class="project-num">01</div>
+              <h3>Open-World Traffic System</h3>
+              <p>
+                Custom waypoint traffic solution with random road selection, lane logic,
+                vehicle spawning/despawning, steering, torque control and chunk-based optimization.
+              </p>
+              <div class="project-tags"><span>Unity 3D</span><span>C#</span><span>AI</span><span>Optimization</span></div>
+              <a href="#" class="project-link demo-link">Project Details <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-preview preview-multi">
+              <div class="network-node n1"></div><div class="network-node n2"></div>
+              <div class="network-node n3"></div><div class="network-node n4"></div>
+              <div class="network-line l1"></div><div class="network-line l2"></div><div class="network-line l3"></div>
+              <span class="preview-label">MULTIPLAYER</span>
+            </div>
+            <div class="project-body">
+              <div class="project-num">02</div>
+              <h3>Photon Multiplayer Conversion</h3>
+              <p>Converted an existing game project to multiplayer with Photon PUN 2, network-aware gameplay and synchronized player actions.</p>
+              <div class="project-tags"><span>Photon PUN 2</span><span>Networking</span><span>C#</span></div>
+              <a href="#" class="project-link demo-link">Project Details <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-preview preview-car">
+              <div class="mountain m1"></div><div class="mountain m2"></div>
+              <div class="vehicle-shape"><i></i><b></b><b></b></div>
+              <span class="preview-label">VEHICLE GAMEPLAY</span>
+            </div>
+            <div class="project-body">
+              <div class="project-num">03</div>
+              <h3>Vehicle & Crash Gameplay</h3>
+              <p>RCC-based vehicle mechanics, damage workflows, detachable parts, input systems, performance tuning and crash-focused gameplay.</p>
+              <div class="project-tags"><span>RCC</span><span>Physics</span><span>Android</span></div>
+              <a href="#" class="project-link demo-link">Project Details <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-preview preview-liveops">
+              <div class="dashboard">
+                <i style="height:35%"></i><i style="height:55%"></i><i style="height:72%"></i><i style="height:48%"></i><i style="height:85%"></i>
+              </div>
+              <span class="preview-label">LIVE OPS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-num">04</div>
+              <h3>Firebase Remote Config</h3>
+              <p>Live tuning for ads and gameplay configuration using Firebase Remote Config, event hooks and runtime configuration management.</p>
+              <div class="project-tags"><span>Firebase</span><span>Remote Config</span><span>AdMob</span></div>
+              <a href="#" class="project-link demo-link">Project Details <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section metrics">
+      <div class="container metrics-grid reveal">
+        <div><strong data-count="2">0</strong><span>Years Building Games</span></div>
+        <div><strong data-count="3">0</strong><span>Core Specialties</span></div>
+        <div><strong data-count="100">0</strong><span>% Unity Focus</span></div>
+        <div><strong data-count="1">0</strong><span>Primary Goal: Better Games</span></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-copy reveal">
+          <span class="section-index">05 / CONTACT</span>
+          <h2>Have a game idea?<br><span class="gradient-text">Let's build it.</span></h2>
+          <p>
+            I'm open to Unity game development opportunities, collaboration and interesting gameplay projects.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:your-email@example.com">Email Me <span>↗</span></a>
+            <button class="btn btn-secondary" id="copyEmail" data-email="your-email@example.com">Copy Email</button>
+          </div>
+        </div>
+
+        <div class="contact-panel glass reveal delay-1">
+          <div class="contact-row">
+            <span>Email</span>
+            <a href="mailto:your-email@example.com">your-email@example.com</a>
+          </div>
+          <div class="contact-row">
+            <span>GitHub</span>
+            <a href="#" class="demo-link">github.com/yourusername</a>
+          </div>
+          <div class="contact-row">
+            <span>LinkedIn</span>
+            <a href="#" class="demo-link">linkedin.com/in/yourusername</a>
+          </div>
+          <div class="contact-row">
+            <span>Location</span>
+            <strong>Pakistan</strong>
+          </div>
+          <div class="availability"><i></i> Open to opportunities</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <a class="brand" href="#top"><span class="brand-mark">H</span><span class="brand-text">HAMZA<span>.DEV</span></span></a>
+      <p>Designed & built with HTML, CSS and JavaScript.</p>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Email copied!</div>
+  <script src="script.js"></script>
+</body>
+</html>
