@@ -1,68 +1,39 @@
-# Hamza - Unity Developer Portfolio
+# Nouman Qureshi - Unity Developer Portfolio
 
-A modern responsive portfolio website built with plain HTML, CSS and JavaScript.
+A responsive portfolio website built with plain HTML, CSS and JavaScript.
 
 ## Files
 
 - `index.html` - Main website
-- `styles.css` - Complete styling and responsive design
-- `script.js` - Animations, mobile navigation, copy-email button
+- `styles.css` - Styling and responsive design
+- `script.js` - Animations, mobile navigation, active nav link, copy-number button
 - `assets/favicon.svg` - Browser favicon
+- `assets/games/` - Game icons from the Google Play listings
 
 ## How to run
 
-Just double-click `index.html`.
+Double-click `index.html`, or open the folder in VS Code and use the **Live Server** extension.
 
-For a better development workflow, open the folder in VS Code and use the **Live Server** extension.
+## Updating published games
 
-## IMPORTANT: Things you should replace
+Each game is an `<article class="game-card">` inside the **Published Games** section of `index.html`.
+To add a game, copy one card, change the icon in `assets/games/`, the title, genre, description,
+download count and Play Store link.
 
-Open `index.html` and search for:
-
-- `your-email@example.com`
-- `github.com/yourusername`
-- `linkedin.com/in/yourusername`
-- `href="#"`
-
-Replace these with your real information.
-
-## Add real project links
-
-In the **Selected Work** section, each "Project Details" link currently uses:
-
-```html
-href="#"
-```
-
-Change it to your GitHub repository, Play Store link, YouTube gameplay video, or project case study.
-
-Example:
-
-```html
-<a href="https://github.com/YOUR_USERNAME/YOUR_PROJECT" target="_blank" class="project-link">
-```
+If download counts change, also update the totals in the hero (`680K+`) and the metrics section
+(`data-count="680"`).
 
 ## Add your CV
 
-Put your PDF file in the portfolio folder, for example:
-
-`Hamza_Unity_Developer_CV.pdf`
-
-Then add a button:
+Put a PDF in the folder, e.g. `Nouman_Qureshi_Unity_Developer_CV.pdf`, then add a button:
 
 ```html
-<a href="Hamza_Unity_Developer_CV.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+<a href="Nouman_Qureshi_Unity_Developer_CV.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
 ```
 
-## Hosting options
+## Hosting
 
-You can publish this site free using:
-
-1. GitHub Pages
-2. Netlify
-3. Vercel
-
-GitHub Pages is a great choice for a developer portfolio.
+Free options: GitHub Pages, Netlify or Vercel.
 
 ## Customization
 
@@ -76,9 +47,3 @@ Main colors are at the top of `styles.css`:
   --purple: #9d7cff;
 }
 ```
-
-Change these variables to quickly change the website theme.
-
----
-
-Built as a portfolio starter for a Unity 3D / Android game developer.
